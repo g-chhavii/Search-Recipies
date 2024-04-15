@@ -4,8 +4,6 @@ let box = document.querySelector(".box");
 let card = document.querySelector(".card");
 
 let url = "https://www.themealdb.com/api/json/v1/1/search.php?s=";
-// name: strMeal strInstructions strMeasure1
-// strYoutube strIngredient1 strCategory
 
 let val = searchBtn.addEventListener("click" , ()=>{
     let searchVal = searchBox.value;
